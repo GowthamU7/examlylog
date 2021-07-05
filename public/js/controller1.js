@@ -12,3 +12,6 @@ document.getElementById('sgn').addEventListener('click',(e)=>{
     window.location.replace(url)
 
 })
+function dec(e){
+    e.style.color="red"
+}

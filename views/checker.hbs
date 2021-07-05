@@ -5,8 +5,30 @@
         </title>
         <link rel="icon" href="/img/main.png">
     </head>
+    <style>
+    .main{
+            width: 600px;
+            height: 300px;
+            background-color: aqua;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+            text-align: center;
+            padding-top: 100px;
+
+        }
+        .main:hover{
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        }
+    </style>
     <body>
+        <center>
+        {{>header}}
+        </center>
+        <center>
+        <div class="main">
         <p>{{msg}}</p>
         <a href="{{lnk}}">{{go}}</a>
+        </div>
+        </center>
     </body>
 </html>

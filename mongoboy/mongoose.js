@@ -1,4 +1,4 @@
 const mg=require('mongoose')
 
-mg.connect('mongodb+srv://sai:saisai99122@cluster0.0fn1n.mongodb.net/Examlylog?retryWrites=true&w=majority',{useNewUrlParser:true,useCreateIndex:true,useUnifiedTopology:true,useFindAndModify:false})
+mg.connect('mongodb+srv://sai:saisai99122@cluster0.0fn1n.mongodb.net/Mynewexams?retryWrites=true&w=majority',{useNewUrlParser:true,useCreateIndex:true,useUnifiedTopology:true,useFindAndModify:false})
 

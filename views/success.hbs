@@ -2,8 +2,29 @@
     <head>
         <title>Loged in..</title>
     </head>
+    <style>
+        .main{
+            width: 600px;
+            height: 500px;
+            background-color: aqua;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+            padding-top: 50px;
+            }
+        .main:hover{
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        }
+    </style>
     <body>
-        {{msg}}
+        <center>
+    {{>header}}
+    </center>
+        <center>
+        <div class="main">
+        <h1>{{msg}}</h1><br><br>
+        <img src="{{sc}}">
         <a href="{{lnk}}">{{mg}}</a>
+        </div>
+        </center>
     </body>
 </html>

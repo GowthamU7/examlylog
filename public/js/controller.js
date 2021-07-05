@@ -8,3 +8,6 @@ document.getElementById('lg').addEventListener('click',(e)=>{
 document.getElementById('sg').addEventListener('click',(e)=>{
     window.location.replace('/signup')
 })
+function dec(e){
+    e.style.color="red"
+}

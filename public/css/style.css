@@ -94,3 +94,11 @@ p{
     margin-left: 30px;
     padding-top: 100px;
 }
+a{
+    color:black;
+    text-decoration: none;
+    font-size: larger;
+}
+#anc{
+    margin-top: 300px;
+}
